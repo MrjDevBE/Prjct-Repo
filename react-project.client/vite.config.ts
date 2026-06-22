@@ -41,7 +41,7 @@ const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_H
 export default defineConfig({
    plugins: [plugin()],
     // ADD THIS LINE:
-    base: '/Prjct-Repo/', 
+    base: '/Prjct-React-Repo/', 
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url))
